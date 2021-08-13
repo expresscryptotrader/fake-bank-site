@@ -149,5 +149,3 @@ function changeAd() {
 }
 }
 
-window.onload = changeAd;
-
