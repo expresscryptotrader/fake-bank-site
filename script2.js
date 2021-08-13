@@ -16,8 +16,6 @@ curBal.textContent = `Current Balance: $${newCurBal}`
 }
 }
 
-window.onload = savingsTransactions;
-
 let updateButton = document.getElementById('chat');
 let favDialog = document.getElementById('dialogBox');
 let closeBtn = document.getElementById('close-btn')
@@ -152,3 +150,4 @@ function changeAd() {
 }
 
 window.onload = changeAd;
+window.onload = savingsTransactions;
