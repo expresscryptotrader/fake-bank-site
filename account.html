@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='./style.css'>
+    <title>Account Page</title>
+</head>
+<body id='accBody'>
+    <section id='accountNav'>
+    <nav>
+    <h1>Welcome back, user</h1>
+    </nav>
+    </section>
+    <section id='accMenu'>
+    <nav><table><thead><tc><th><select id='accDrop' onchange='location = this.value;'><option>Accounts</option><option value='./checking.html'>Regular Checking</option><option value='./savings.html'>Super Simple Savings</option><option value='./credit.html'>Silver Rewards Credit Card</option></select></th></tc><tc><th><a href='#extTran'>Transfer</a></th></tc><tc><th><a href='./maintenance.html'>Bill Pay</a></th></tc><tc><th><a href='./maintenance.html'></a></th></tc><tc><th><a href='./maintenance.html'>Your Rewards</a></th></tc><tc><th><a href='./maintenance.html'>Open a New Account</a></th></tc><tc><th><a href='./index.html'>Log Out</a></th></tc></thead></table></nav>
+    </section>
+    <section id='myAccounts'><h2>Account Balances</h2><h4 id='check-bal'>Regular Checking-0429: $82</h4><h4 id='sav-bal'>Super Simple Savings-1081: $922</h4><h4 id='cc-bal'>Silver Rewards Credit Card-2814: $327</h4></section>
+    <section id='intTran'><h2>Transfer Between Accounts</h2><form id='tranFromForm'><label for='transfer-from' id='tranFromLab'>Transfer From:</label><label><input type='radio' name='tranFrom'>Super
+    Simple Savings-1081</label><label><input type='radio' name='tranFrom'>Regular Checking-0429</label></form><form id='tranToForm'><label for='tranTo' id='tranToLab'>Transfer to:</label><label><input type='radio' name='tranTo'>Regular Checking-0429</label><label><input type='radio' name='tranTo'>Super Simple Savings-1081</label><label><input type='radio' name='tranTo' id='tranTocc'>Silver Rewards Credit Card-2814</label></form><form><label for='tran-amnt'>Amount: $</label><input id='tran-amnt' type='number'><button id='tran-btn' type='button'>Transfer</button></form></section>
+    <section id='extTran'><h2>External Transfers</h2><form><label for='tranFromExt' id='tranFromLab2'>Transfer From:</label><label><input type='radio' name='tranFromExt'>Super
+    Simple Savings-1081</label><label><input type='radio' name='tranFromExt'>Regular Checking-0429</label></form><form><label for='tran-to-ext' id='tranToLab2'>Transfer to:</label><input name='tran-to-ext' placeholder='Account Number' required><input name='tran-to-ext' placeholder='Routing Number' required><br><label for='ext-tran-amnt'>Amount: $</label><input id='ext-tran-amnt' type='number'><button id='ext-tran-btn'
+    onclick='extTranBut()' type='button'>Transfer</button></form></section>
+    <section id='recentTrans'><h2 id='reTran'>Recent Transactions:</h2><ul id='unList'></ul></section>
+    <section id='disclaimer'><small>Disclaimer: this is not a real bank website, it is for demonstration purposes only.</small></section>
+    <script src='./script.js'></script>
+</body>
+</html>
