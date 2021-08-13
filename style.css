@@ -1,1 +1,406 @@
+#loginForm {
+  background-color: rgb(16, 83, 16);
+  width: 30vw;
+  height: 28vh;
+  border: 2px solid black;
+  text-align: center;
+  padding-top: 5vh;
+  margin-top: 6vh;
+  left: 0;
+  font-size: 20px;
+  font-family: serif;
+}
 
+#dialogBox {
+  border: 3px solid rgb(16, 83, 16);
+  background-color: lightgray;
+  border-radius: 3%;
+  text-align: center;
+}
+
+#hint {
+  margin-top: 1vh;
+}
+
+#demonstration {
+  color: red;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 0;
+}
+
+#titleNav {
+  background-image: url('https://images.pexels.com/photos/2832061/pexels-photo-2832061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+  height: 35vh;
+  width: 105vw;
+  text-align: center;
+  width: 100%;
+}
+
+#title {
+  font-size: 58px;
+  color: rgb(16, 83, 16);
+  margin-bottom: 2px;
+  margin-top: 5vh;
+}
+
+#menu {
+  background-color: lightgrey;
+  text-align: center;
+  border: 1px solid black;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+th {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+body {
+  background-color: rgb(128, 187, 128);
+}
+
+body {
+  margin: 0;
+}
+
+#helpYou4,
+#helpYou2,
+#helpYou3 {
+  text-align: left;
+  justify-content: left;
+  padding-right: 30vw;
+}
+
+#simSav2 {
+  background-image: url('https://images.pexels.com/photos/3330118/pexels-photo-3330118.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  right: 2vw;
+  margin-top: -33vh;
+  background-position: bottom left;
+  width: 59vw;
+  position: relative;
+  height: 90vh;
+  padding: 2vw;
+  float: right;
+  border: 3px solid rgb(16, 83, 16);
+  border-radius: 5%;
+  justify-content: left;
+}
+
+#simSav3 {
+  right: 2vw;
+  margin-top: -33vh;
+  background-image: url('https://images.pexels.com/photos/1181395/pexels-photo-1181395.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+  background-position: 5% 48%;
+  background-repeat: no-repeat;
+  width: 59vw;
+  position: relative;
+  height: 90vh;
+  padding: 2vw;
+  float: right;
+  border: 3px solid rgb(16, 83, 16);
+  border-radius: 5%;
+  justify-content: left;
+}
+
+#simSav,
+#simSav4 {
+  right: 2vw;
+  margin-top: -33vh;
+  background-image: url('https://images.pexels.com/photos/4386235/pexels-photo-4386235.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-position: bottom left;
+  width: 59vw;
+  position: relative;
+  height: 90vh;
+  padding: 2vw;
+  float: right;
+  border: 3px solid rgb(16, 83, 16);
+  border-radius: 5%;
+  justify-content: left;
+}
+
+#finePrint {
+  margin-top: 2vh;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+#unorList li {
+  width: 50vw;
+  font-size: 24px;
+  margin: 20px;
+  list-style: none;
+  font-weight: bold;
+  border-bottom: solid 2px rgb(16, 83, 16);
+}
+
+#helpYou,
+#helpYou2 {
+  text-align: left;
+  justify-content: left;
+  padding-right: 30vw;
+}
+
+p {
+  font-size: 20px;
+}
+
+#support {
+  width: 25vw;
+  height: 50vh;
+  border: 3px solid rgb(16, 83, 16);
+  margin-right: 2vw;
+  padding-top: 8vh;
+  padding-right: 4vw;
+  position: relative;
+  margin-left: 1vw;
+  margin-top: 3vh;
+  background-image: url('https://images.pexels.com/photos/7709245/pexels-photo-7709245.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+  background-position: top left;
+  text-align: center;
+  border-radius: 5%;
+}
+
+#chat {
+  font-size: 20px;
+  background-color: white;
+  font-weight: 500;
+}
+
+#maintenanceBody {
+  background-image: url('https://cdn.pixabay.com/photo/2013/04/01/08/26/tools-98391_960_720.png');
+  background-color: white;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: top;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 70vh;
+  top: 0;
+  position: fixed;
+}
+
+#maintenanceMess {
+  margin-bottom: 20vh;
+  position: relative;
+}
+
+#accountNav {
+  background-color: rgb(16, 83, 16);
+  color: white;
+  height: 10vh;
+  width: 100vw;
+  top: 0;
+  align-content: center;
+  position: fixed;
+  font-size: 22px;
+}
+
+#accBody {
+  background-color: rgb(128, 187, 128);
+}
+
+#myAccounts {
+  margin-top: 5vh;
+  margin-left: 2vw;
+}
+#accMenu {
+  width: 100vw;
+  background-color: lightgray;
+  margin-top: 10vh;
+  height: 5vh;
+}
+
+#accDrop {
+  background-color: lightgray;
+  border-radius: 5px;
+  width: 160px;
+}
+
+#check-bal {
+  background-color: lightgray;
+  padding-left: 1vw;
+  border: 1px solid rgb(16, 83, 16);
+}
+#sav-bal {
+  background-color: lightgray;
+  padding-left: 1vw;
+  border: 1px solid rgb(16, 83, 16);
+}
+#cc-bal {
+  background-color: lightgray;
+  padding-left: 1vw;
+  border: 1px solid rgb(16, 83, 16);
+}
+
+#intTran {
+  margin-left: 2vw;
+  font-size: 18px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  margin-bottom: 2vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: lightgray;
+  border: 1px solid rgb(16, 83, 16);
+}
+
+#extTran {
+  margin-left: 2vw;
+  font-size: 18px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  margin-top: 2vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: lightgray;
+  border: 1px solid rgb(16, 83, 16);
+}
+#tran-btn {
+  margin-left: 1vw;
+  font-size: 16px;
+}
+
+#ext-tran-btn {
+  margin-left: 1vw;
+  font-size: 16px;
+}
+
+#accountNav {
+  padding-left: 2vw;
+}
+
+input {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+#tranToLab,
+#tranFromLab,
+#tranToLab2,
+#tranFromLab2 {
+  font-size: 22px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#disclaimer {
+  text-align: center;
+  margin-top: 1vh;
+}
+
+#recentTrans {
+  margin-left: 2vw;
+  font-size: 18px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+  margin-top: 2vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: lightgray;
+  border: 1px solid rgb(16, 83, 16);
+}
+
+#recent {
+  margin-left: 3vw;
+}
+
+@media (max-width: 700px) {
+  #titleNav {
+    height: 70vh;
+    background-position: 50%;
+    color: lightgrey;
+  }
+  #title {
+    color: navy;
+  }
+  #loginForm {
+    height: 45vh;
+    width: 75vw;
+    margin-left: 12vw;
+    margin-right: 12vw;
+  }
+  #simSav,
+  #simSav2,
+  #simSav3,
+  #simSav4 {
+    margin-top: 10vh;
+    height: 110vh;
+    margin-left: 13vw;
+    width: 90vw;
+    padding-left: 0vw;
+    justify-content: center;
+  }
+  #helpYou,
+  #helpYou2,
+  #helpYou3,
+  #helpYou4 {
+    text-align: center;
+    justify-content: center;
+    padding-right: 0vw;
+  }
+  #support {
+    height: 70vh;
+    width: 90vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-bottom: 1vh;
+    margin-top: 130vh;
+    padding-top: 15vh;
+  }
+
+  #accountNav {
+    height: 15vh;
+  }
+  #accMenu {
+    margin-top: 15vh;
+    height: 13vh;
+    width: 120vw;
+  }
+  #accDrop {
+    width: 100px;
+  }
+  #intTran {
+    height: 75vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 0vh;
+    padding-bottom: 4vh;
+  }
+  #extTran {
+    height: 65vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+  #maintenanceBody {
+    background-size: 100%;
+    padding-top: 50vh;
+  }
+  #menu {
+    left: 0;
+    width: 120vw;
+  }
+}
