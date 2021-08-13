@@ -150,4 +150,4 @@ function changeAd() {
 }
 
 window.onload = changeAd;
-window.onload = savingsTransactions;
+
