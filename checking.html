@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='./style.css'>
+    <title>Regular Checking-0429</title>
+</head>
+<body onload='createTransactions()'>
+  <section id='accountNav'>
+    <nav>
+      <h1>Regular Checking-0429</h1>
+    </nav>
+    </section>
+    <section id='accMenu'>
+      <nav>
+        <table>
+          <thead>
+            <tc>
+            <th><select id='accDrop' onchange='location = this.value;'>
+            <option>Accounts</option>
+            <option value='./checking.html'>Regular Checking</option>
+            <option value='./savings.html'>Super Simple Savings</option>
+            <option value='./credit.html'>Silver Rewards Credit Card</option>
+            </select></th>
+            </tc>
+            <tc>
+            <th><a href='./account.html'>Transfer</a></th>
+            </tc>
+            <tc>
+            <th><a href='./maintenance.html'>Bill Pay</a></th>
+            </tc>
+            <tc>
+            <th><a href='./maintenance.html'></a></th>
+            </tc>
+            <tc>
+            <th><a href='./maintenance.html'>Your Rewards</a></th>
+            </tc>
+            <tc>
+            <th><a href='./maintenance.html'>Open a New Account</a></th>
+            </tc>
+            <tc>
+            <th><a href='./index.html'>Log Out</a></th>
+                    </tc>
+                </thead>
+            </table>
+        </nav>
+    </section>
+    <h2 id='testBal'>Current Balance: $920</h2>
+    <h2 id='recent'>Recent Transactions:</h2>
+    <ul id='unorList'>
+        <li id='list'>Loading...</li>
+    </ul>
+    <section id='disclaimer'><small>Disclaimer: this is not a real bank website, it is for demonstration purposes
+    only.</small></section>
+    <script src='./script.js'></script>
+</body>
+</html>
