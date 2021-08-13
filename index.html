@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>Fake Bank Homepage</title>
+</head>
+
+<body>
+    <section>
+    <nav id='titleNav'><h2 id='demonstration'>For demonstration purposes only!</h2><h1 id='title'>Fictitious Savings and Loan</h1><p>Not insured by anyone. Not a member of anything.</p></nav>
+    </section>
+    <section>
+    <nav id='menu'><table><thead><tc><th><a href='./maintenance.html'>Savings Accounts</a></th></tc><tc><th><a href='./maintenance.html'>Checking Accounts</a></th></tc><tc><th><a href='./maintenance.html'>Credit Cards</a></th></tc><tc><th><a href='./maintenance.html'>Mortgages and Auto Loans</a></th></tc><tc><th><a href ='./maintenance.html'>Investment and Retirement Accounts</a></th></tc><tc><th><a href='./maintenance.html'>Education Accounts</a></th></tc></thead></table></nav>
+    </section>
+    <form id='loginForm' action="./account.html">
+        <label for="username">Username:</label>
+        <input type="text" name="username" pattern="[f]+[a]+[k]+[e]" required>
+        </input>
+        </label><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" pattern="[b]+[a]+[n]+[k]" required>
+        </label><br>
+        <button type="submit">Sign In</button><br>
+        <a href='./maintenance.html'><small>Forgot your password?</small></a>
+        <p id='hint'>Hint: fake and bank</p>
+    </form>
+    <span id='adSpan'>
+    <section id='simSav'><h2>Get your savings in gear with our new <br>Super Simple Savings Account!</h2><h4>Are you ready to:</h4><ul><li>Save for a home purchase</li><li>Buy a new car</li><li>Home Renovations</li><li>Get a new pet</li><li>Take that dream vacation</li></ul><br>
+        <div id='helpYou'><h4>Let us help you achieve your goals faster with the Super Simple Savings Account</h4><p>With no maintenance fee and generous interest, the Super Simple Savings Account will get you to your goal in no time! Talk to one of our representatives today and begin your savings journey.</p></div>
+    </section>
+    </span>
+    <section id='support'><h4>Have questions about <br>your options? Chat <br>below with one of <br>our trained support representatives.</h4><br>
+    <dialog id='dialogBox'>
+        <form id='testForm'>
+            <label for='chatSelect'>What can I assist you with today?</label><br>
+            <label><input type='radio' name='chatSelect'>Open a new account</label><label>
+            <input type='radio' name='chatSelect'>Help with a transaction</label>
+            <label><input type='radio' name='chatSelect'>Close an account</label>
+            <br><button type='button' onclick='firstSelect()'>Select</button><br>
+            <br><button id='close-btn' onclick='closeModal()'>Close</button>
+        </form>
+    </dialog>
+      <button id='chat' onclick='chatModal()'>Get Support
+      </button>
+    </section>
+    <small id='disclaim'>Disclaimer: this is not a real bank website, it is for demonstration purposes only.</small>
+    <script src='./script2.js'></script>
+</body>
+
+</html>
