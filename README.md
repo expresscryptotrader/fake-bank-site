@@ -1,4 +1,7 @@
 # fake-bank-site
+
+https://ksmith8888.github.io/fake-bank-site/ 
+
 Just a fake bank website I'm making as a silly personal project
  
    Created this while playing around with some of the javascript that I've been learning. It is just HTML/CSS and very basic JS. You can "log in" to the account with the username 
